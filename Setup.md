@@ -17,6 +17,7 @@
   - Yes, this takes _some_ time... Better grap a cup of coffee (or tea, or both)
 - Add public read permissions to hosting bucket
   - Obviously you need to do this, otherwise you get an AccessDenied...
+  - info: https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteAccessPermissionsReqd.html
   - Go to your hosting bucket policy page (somethong like: https://s3.console.aws.amazon.com/s3/buckets/fuchsstatusstatic-20200131162325-hostingbucket-dev/?region=eu-central-1&tab=permissions)
   - Add the following in the bucket policy editor (replace the resource url with the correct one):
   ```json
