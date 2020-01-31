@@ -1,0 +1,35 @@
+svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+}
+.invisible {
+  visibility: hidden;
+}
+svg *[stroke*="#"],
+svg *[STROKE*="#"] {
+  stroke: inherit;
+  fill: none;
+}
+#warningIcon {
+  fill: #ffaa15;
+  stroke: #ffaa15;
+}
+#goodIcon {
+  fill: #00c781;
+  stroke: #00c781;
+}
+#criticalIcon {
+  fill: #ff4040;
+  stroke: #ff4040;
+}
+#unknownIcon {
+  fill: #cccccc;
+  stroke: #cccccc;
+}

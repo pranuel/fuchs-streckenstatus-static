@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-fuchsstatusstatic-dev-162209-authRole",
+            "UnauthRoleArn": "arn:aws:iam::561253620376:role/amplify-fuchsstatusstatic-dev-162209-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::561253620376:role/amplify-fuchsstatusstatic-dev-162209-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-fuchsstatusstatic-dev-162209-deployment",
+            "UnauthRoleName": "amplify-fuchsstatusstatic-dev-162209-unauthRole",
+            "StackName": "amplify-fuchsstatusstatic-dev-162209",
+            "StackId": "arn:aws:cloudformation:eu-central-1:561253620376:stack/amplify-fuchsstatusstatic-dev-162209/73860c00-443d-11ea-90e8-0a0ddac78b4a",
+            "AmplifyAppId": "d27n8t0gnys5o2"
+        }
+    }
+}

@@ -1,44 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="">
   <head>
-    <style>
-      svg {
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        -webkit-flex: 0 0 auto;
-        -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 48px;
-        height: 48px;
-      }
-      .invisible {
-        visibility: hidden;
-      }
-      svg *[stroke*="#"],
-      svg *[STROKE*="#"] {
-        stroke: inherit;
-        fill: none;
-      }
-      #warningIcon {
-        fill: #ffaa15;
-        stroke: #ffaa15;
-      }
-      #goodIcon {
-        fill: #00c781;
-        stroke: #00c781;
-      }
-      #criticalIcon {
-        fill: #ff4040;
-        stroke: #ff4040;
-      }
-      #unknownIcon {
-        fill: #cccccc;
-        stroke: #cccccc;
-      }
-    </style>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>fuchs streckenstatus static</title>
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- endbuild -->
   </head>
   <body>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
     <svg aria-label="StatusWarning" viewBox="0 0 24 24" id="warningIcon">
       <path
         class="invisible"
@@ -76,6 +55,10 @@
         d="M2,3.99079514 C2,2.89130934 2.89821238,2 3.99079514,2 L20.0092049,2 C21.1086907,2 22,2.89821238 22,3.99079514 L22,20.0092049 C22,21.1086907 21.1017876,22 20.0092049,22 L3.99079514,22 C2.89130934,22 2,21.1017876 2,20.0092049 L2,3.99079514 Z M12,15 L12,14 C12,13 12,12.5 13,12 C14,11.5 15,11 15,9.5 C15,8.5 14,7 12,7 C10,7 9,8.26413718 9,10 M12,16 L12,18"
       ></path>
     </svg>
-    <script src="streckenstatus.js"></script>
+    <!-- build:js scripts/vendor.js -->
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
