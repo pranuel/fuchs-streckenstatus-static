@@ -1,5 +1,5 @@
 {
-    "dev": {
+    "fuchsdev": {
         "configLevel": "project",
         "useProfile": true,
         "profileName": "default"

@@ -11,7 +11,7 @@ const unknownIcon = document.querySelector('#unknownIcon > path');
 
 function loadStatus() {
   fetch(
-    'https://4kst5mok57.execute-api.eu-central-1.amazonaws.com/dev/status/object/1'
+    'https://42fj6l565b.execute-api.eu-central-1.amazonaws.com/fuchsdev/status/object/1'
   )
     .then(function(response) {
       // The API call was successful!

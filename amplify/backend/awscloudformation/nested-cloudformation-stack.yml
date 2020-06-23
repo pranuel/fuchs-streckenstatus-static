@@ -71,10 +71,10 @@
 		"hostingS3AndCloudFront": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/amplify-fuchsstatusstatic-dev-162209-deployment/amplify-cfn-templates/hosting/template.json",
+				"TemplateURL": "https://s3.amazonaws.com/amplify-fuchsstatusstatic-fuchsdev-134014-deployment/amplify-cfn-templates/hosting/template.json",
 				"Parameters": {
 					"bucketName": "fuchsstatusstatic-20200131162325-hostingbucket",
-					"env": "dev"
+					"env": "fuchsdev"
 				}
 			}
 		}

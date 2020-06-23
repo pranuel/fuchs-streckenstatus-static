@@ -1,15 +1,15 @@
 {
 	"providers": {
 		"awscloudformation": {
-			"AuthRoleName": "amplify-fuchsstatusstatic-dev-162209-authRole",
-			"UnauthRoleArn": "arn:aws:iam::561253620376:role/amplify-fuchsstatusstatic-dev-162209-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::561253620376:role/amplify-fuchsstatusstatic-dev-162209-authRole",
+			"AuthRoleName": "amplify-fuchsstatusstatic-fuchsdev-134014-authRole",
+			"UnauthRoleArn": "arn:aws:iam::360442361598:role/amplify-fuchsstatusstatic-fuchsdev-134014-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::360442361598:role/amplify-fuchsstatusstatic-fuchsdev-134014-authRole",
 			"Region": "eu-central-1",
-			"DeploymentBucketName": "amplify-fuchsstatusstatic-dev-162209-deployment",
-			"UnauthRoleName": "amplify-fuchsstatusstatic-dev-162209-unauthRole",
-			"StackName": "amplify-fuchsstatusstatic-dev-162209",
-			"StackId": "arn:aws:cloudformation:eu-central-1:561253620376:stack/amplify-fuchsstatusstatic-dev-162209/73860c00-443d-11ea-90e8-0a0ddac78b4a",
-			"AmplifyAppId": "d27n8t0gnys5o2"
+			"DeploymentBucketName": "amplify-fuchsstatusstatic-fuchsdev-134014-deployment",
+			"UnauthRoleName": "amplify-fuchsstatusstatic-fuchsdev-134014-unauthRole",
+			"StackName": "amplify-fuchsstatusstatic-fuchsdev-134014",
+			"StackId": "arn:aws:cloudformation:eu-central-1:360442361598:stack/amplify-fuchsstatusstatic-fuchsdev-134014/4ef86020-b546-11ea-af7f-029363dcbd8e",
+			"AmplifyAppId": "d2nesufses2ua"
 		}
 	},
 	"hosting": {
@@ -17,19 +17,19 @@
 			"service": "S3AndCloudFront",
 			"providerPlugin": "awscloudformation",
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-fuchsstatusstatic-dev-162209-deployment/amplify-cfn-templates/hosting/template.json",
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-fuchsstatusstatic-fuchsdev-134014-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2020-01-31T15:40:52.627Z",
+			"lastPushTimeStamp": "2020-06-23T11:48:12.198Z",
 			"output": {
-				"CloudFrontSecureURL": "https://dcpg9lpqxtsf2.cloudfront.net",
-				"S3BucketSecureURL": "https://fuchsstatusstatic-20200131162325-hostingbucket-dev.s3.amazonaws.com",
-				"CloudFrontOriginAccessIdentity": "E1D3Q24C61QAHN",
-				"WebsiteURL": "http://fuchsstatusstatic-20200131162325-hostingbucket-dev.s3-website.eu-central-1.amazonaws.com",
-				"CloudFrontDistributionID": "E2MAY8AH3MCWT2",
+				"CloudFrontSecureURL": "https://d2chynaujl9igh.cloudfront.net",
+				"S3BucketSecureURL": "https://fuchsstatusstatic-20200131162325-hostingbucket-fuchsdev.s3.amazonaws.com",
+				"CloudFrontOriginAccessIdentity": "E1B9UCJDLDFF2E",
+				"WebsiteURL": "http://fuchsstatusstatic-20200131162325-hostingbucket-fuchsdev.s3-website.eu-central-1.amazonaws.com",
+				"CloudFrontDistributionID": "E1LMDOLWK3URPB",
 				"Region": "eu-central-1",
-				"HostingBucketName": "fuchsstatusstatic-20200131162325-hostingbucket-dev",
-				"CloudFrontDomainName": "dcpg9lpqxtsf2.cloudfront.net"
+				"HostingBucketName": "fuchsstatusstatic-20200131162325-hostingbucket-fuchsdev",
+				"CloudFrontDomainName": "d2chynaujl9igh.cloudfront.net"
 			},
 			"lastPushDirHash": "ExDInHurLCudtbjAmBOpw73VuI8="
 		}
